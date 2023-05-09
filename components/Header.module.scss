@@ -1,0 +1,37 @@
+.header {
+  height: 7rem;
+  background-color: #0a66c2;
+  color: #fff;
+
+  .header-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+
+      li {
+        a {
+          &:link,
+          &:visited {
+            color: #fff;
+            text-decoration: none;
+          }
+          &:hover,
+          &:active {
+            color: #b3b3b3;
+          }
+        }
+
+        .active {
+          color: #b3b3b3 !important;
+        }
+      }
+    }
+  }
+}

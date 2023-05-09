@@ -1,0 +1,12 @@
+.home {
+  min-height: calc(100vh - 14rem);
+  .chats-container {
+    display: flex;
+    .left {
+      flex: 2;
+    }
+    .center {
+      flex: 3;
+    }
+  }
+}
